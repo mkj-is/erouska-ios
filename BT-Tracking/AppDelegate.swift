@@ -265,7 +265,10 @@ private extension AppDelegate {
         guard let identifier = viewControllerIdentifier else { return }
 
         advertiser.stop()
-        scanner.stop()
+        // Prevents lazy initialization and forcing authorization start before the user logs in
+        if !BTAuthorization().bluetoothNotDetermined {
+            scanner.stop()
+        }
 
         let viewController = UIStoryboard(name: "ForceUpdate", bundle: nil).instantiateViewController(withIdentifier: identifier)
         viewController.modalPresentationStyle = .fullScreen

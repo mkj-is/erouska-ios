@@ -244,6 +244,9 @@
 		D6340C6924C5977500E550A1 /* UnsupportedDeviceVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6340C6724C5977500E550A1 /* UnsupportedDeviceVM.swift */; };
 		D6340C6B24C5A27700E550A1 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6340C6A24C5A27700E550A1 /* Device.swift */; };
 		D6340C6C24C5A27700E550A1 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6340C6A24C5A27700E550A1 /* Device.swift */; };
+		E7856E06251FC61300915794 /* BTAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7856E05251FC61300915794 /* BTAuthorization.swift */; };
+		E7856E07251FC61300915794 /* BTAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7856E05251FC61300915794 /* BTAuthorization.swift */; };
+		E7856E08251FC61300915794 /* BTAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7856E05251FC61300915794 /* BTAuthorization.swift */; };
 		FF2F0DBC2449AFA60062A7F9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F0DBB2449AFA60062A7F9 /* Color.swift */; };
 		FF2F0DBD2449AFA60062A7F9 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2F0DBB2449AFA60062A7F9 /* Color.swift */; };
 		FFC32E9D244B74CF0008104C /* BTScanDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803669A8243F4B0D00684B57 /* BTScanDevice.swift */; };
@@ -378,6 +381,7 @@
 		D6340C6A24C5A27700E550A1 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		DF0C0CB4ECD55B9604CF5A17 /* Pods-eRouska Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eRouska Dev.release.xcconfig"; path = "Target Support Files/Pods-eRouska Dev/Pods-eRouska Dev.release.xcconfig"; sourceTree = "<group>"; };
 		E60DB5DABB22CA5C758C6FA2 /* Pods-eRouska Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eRouska Mac.debug.xcconfig"; path = "Target Support Files/Pods-eRouska Mac/Pods-eRouska Mac.debug.xcconfig"; sourceTree = "<group>"; };
+		E7856E05251FC61300915794 /* BTAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTAuthorization.swift; sourceTree = "<group>"; };
 		FF2F0DBB2449AFA60062A7F9 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		FFC4432324460A35002D2A6D /* MarkdownController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownController.swift; sourceTree = "<group>"; };
 		FFC4432524460D78002D2A6D /* MarkdownBackups.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = MarkdownBackups.strings; sourceTree = "<group>"; };
@@ -572,6 +576,7 @@
 				805BE9762424DE0E001A93B3 /* BTScan.swift */,
 				803669A8243F4B0D00684B57 /* BTScanDevice.swift */,
 				8054C0CF241FE706008907B8 /* BTScanner.swift */,
+				E7856E05251FC61300915794 /* BTAuthorization.swift */,
 			);
 			path = Bluetooth;
 			sourceTree = "<group>";
@@ -1171,6 +1176,7 @@
 				8064DF85244F3FFD005E8AA3 /* AboutVC.swift in Sources */,
 				80CA44E0244B404F008E22F8 /* ContactsVM.swift in Sources */,
 				80BF9C262424D55800150108 /* SendReportVC.swift in Sources */,
+				E7856E06251FC61300915794 /* BTAuthorization.swift in Sources */,
 				FFC4432424460A36002D2A6D /* MarkdownController.swift in Sources */,
 				80BB47642422865B00F552FC /* Button.swift in Sources */,
 				8064DF89244F4026005E8AA3 /* AboutVM.swift in Sources */,
@@ -1230,6 +1236,7 @@
 				FFC32EA5244B754B0008104C /* ContactsVM.swift in Sources */,
 				8083D8B3244640A0007FA4E9 /* Image.swift in Sources */,
 				8083D8B4244640A0007FA4E9 /* ActiveAppVC.swift in Sources */,
+				E7856E07251FC61300915794 /* BTAuthorization.swift in Sources */,
 				8083D8B5244640A0007FA4E9 /* ContactsVC.swift in Sources */,
 				8083D8B6244640A0007FA4E9 /* BTAdvertiser.swift in Sources */,
 				8083D8B7244640A0007FA4E9 /* Data.swift in Sources */,
@@ -1342,6 +1349,7 @@
 				8083D90624464339007FA4E9 /* MulticastDelegate.swift in Sources */,
 				80BB475024212A3C00F552FC /* BTScanner.swift in Sources */,
 				80BB475224212A3C00F552FC /* BT.swift in Sources */,
+				E7856E08251FC61300915794 /* BTAuthorization.swift in Sources */,
 				8083D90724464342007FA4E9 /* MarkdownController.swift in Sources */,
 				8083D91B244758CB007FA4E9 /* BTScan.swift in Sources */,
 				8083D8FD24464334007FA4E9 /* Button.swift in Sources */,
